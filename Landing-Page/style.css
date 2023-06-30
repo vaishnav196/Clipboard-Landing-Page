@@ -1,0 +1,360 @@
+:root {
+  --DarkGrayish-Blue: hsl(210, 10%, 33%);
+  --GrayishBlue: hsl(201, 11%, 66%);
+  --StrongCyan: hsl(171, 66%, 44%);
+  --LightBlue: hsl(233, 100%, 69%);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  width: 80%;
+}
+
+header {
+  height: 250px;
+}
+
+main {
+  background-image: url(images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-home {
+  text-align: center;
+}
+.text-home h1,
+p {
+  text-align: center;
+  padding: 6px;
+}
+.text-home h1 {
+  font-size: 38px;
+  font-weight: 600;
+  color: var(--DarkGrayish-Blue);
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.text-home p {
+  font-family: "Bai Jamjuree", sans-serif;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--GrayishBlue);
+}
+.c {
+  text-align: center;
+  position: relative;
+  top: 90px;
+}
+.button {
+  padding: 25px;
+}
+.btn-1 {
+  background-color: var(--StrongCyan);
+  padding: 10px 25px;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: white;
+  font-size: 13px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 0px 8px var(--StrongCyan);
+  cursor: pointer;
+}
+.btn-2 {
+  background-color: var(--LightBlue);
+  padding: 10px 35px;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 13px;
+  box-shadow: 0px 0px 8px var(--LightBlue);
+  cursor: pointer;
+}
+.btn-1:hover {
+  background-color: hsl(170, 71%, 37%);
+}
+.btn-2:hover {
+  background-color: hsl(233, 69%, 55%);
+}
+.track {
+  margin-top: 60px;
+}
+.track h1,
+p {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.track h1 {
+  text-align: center;
+  color: var(--DarkGrayish-Blue);
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.track p {
+  font-size: 17px;
+  text-align: center;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  color: var(--GrayishBlue);
+}
+.pc-text {
+  display: flex;
+}
+.pc {
+  width:70%;
+  /* background-color: brown; */
+}
+/* .m-pc img{
+    width: 100%;
+} */
+.p-3 {
+  width: 50%;
+  /* background-color: aquamarine; */
+}
+.p-3 h3 {
+  color: var(--DarkGrayish-Blue);
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0px 15px;
+}
+.p-3 p {
+  text-align: left;
+  padding: 5px 15px;
+}
+.p1 {
+  /* background-color: blue; */
+  margin: 45px 0px;
+  font-size: 17px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  color: var(--GrayishBlue);
+  line-height: 28px;
+}
+.p2 {
+  /* background-color: red; */
+  margin: 45px 0px;
+  font-size: 17px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  color: var(--GrayishBlue);
+  line-height: 28px;
+}
+.p3 {
+  /* background-color: blueviolet; */
+  margin: 45px 0px;
+  font-size: 17px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  color: var(--GrayishBlue);
+  line-height: 28px;
+}
+.clip-b h3 {
+  text-align: center;
+  color: var(--DarkGrayish-Blue);
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Bai Jamjuree", sans-serif;
+  line-height: 40px;
+}
+.clip-b p {
+  font-size: 18px;
+  text-align: center;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  color: var(--GrayishBlue);
+  line-height: 28px;
+}
+.clip-b {
+  padding-top: 100px;
+}
+.m-pc {
+  text-align: center;
+  padding: 100px;
+}
+.super h1 {
+  text-align: center;
+  color: var(--DarkGrayish-Blue);
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Bai Jamjuree", sans-serif;
+  line-height: 40px;
+}
+.super p {
+  font-size: 18px;
+  font-family: "Bai Jamjuree", sans-serif;
+  /* font-weight:400; */
+  color: var(--GrayishBlue);
+  line-height: 45px;
+}
+.text-3 {
+  display: flex;
+  padding-top: 55px;
+}
+.blacklist {
+  /* background-color: aqua; */
+  width: 33.33%;
+}
+.Plain {
+  width: 33.33%;
+  /* background-color: blue; */
+}
+.sneak {
+  /* background-color: blueviolet; */
+  width: 33.33%;
+}
+.text-3 h3 {
+  text-align: center;
+  color: var(--DarkGrayish-Blue);
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Bai Jamjuree", sans-serif;
+  line-height: 40px;
+}
+.im {
+  text-align: center;
+  padding-bottom: 25px;
+}
+.blacklist p {
+  font-size: 17px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  color: var(--GrayishBlue);
+  line-height: 20px;
+}
+.sneak p {
+  font-size: 17px;
+  font-family: "B5i Jamjuree", sans-serif;
+  font-weight: 400;
+  color: var(--GrayishBlue);
+  line-height: 25px;
+}
+.Plain p {
+  font-size: 17px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  color: var(--GrayishBlue);
+  line-height: 25px;
+}
+.logos {
+  display: flex;
+  margin: 100px 150px;
+  justify-content: space-between;
+}
+.lg {
+  padding: 30px 0px;
+}
+footer {
+  background-color: whitesmoke;
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+}
+.links {
+  font-size: 18px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  color: var(--DarkGrayish-Blue);
+}
+.foot-link {
+  display: flex;
+  padding: 15px 10px;
+}
+.foot-link li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: lighter;
+  color: var(--DarkGrayish-Blue);
+}
+.link-item {
+  margin: 5px 25px;
+}
+.foot-logo {
+  padding: 35px 10px;
+}
+.social {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 1160px) {
+  .pc-text {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .p-3 {
+    width: 100%;
+    text-align: center;
+  }
+  .p-3 p{
+    text-align: center;
+  }
+  .pc {
+    width: 100%;
+    text-align: center;
+  }
+  .pc img{
+    width: 50%;
+  }
+  .m-pc img{
+   width: 105%;
+  }
+  .text-3{
+    flex-direction: column;
+    width: 100%;
+    
+  }
+  .blacklist,.sneak,.Plain {
+    width: 100%;
+  }
+  .logos{
+    flex-direction: column;
+ 
+  text-align: center;
+
+  }
+  .space{
+ padding: 30px 0px;
+}
+}
+@media (max-width:875px){
+    main{
+        background-image: url(images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .foot{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .foot-link{
+        flex-direction: column;
+        text-align: center;
+    }
+    .lg{
+        width: 100%;
+        text-align: center;
+    }
+   .foot-link li{
+    margin: 10px 0px;
+   }
+    .foot-logo{
+        text-align: center;
+    }
+    .pc img{
+        width: 75%;
+    }
+   .m-pc img{
+    width: 110%;
+   }
+  
+}
